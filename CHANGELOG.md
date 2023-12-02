@@ -1,5 +1,11 @@
 # dso-database
 
+## 1.0.1
+
+### Patch Changes
+
+- 6ff74d9: release new version
+
 ## 1.0.0
 
 ### Major Changes
