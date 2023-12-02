@@ -1,6 +1,6 @@
 {
 	"name": "dso-database",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"license": "MIT",
 	"private": false,
 	"description": "TypeScript definitions for dso-database",
