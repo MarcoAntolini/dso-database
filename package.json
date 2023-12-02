@@ -1,0 +1,50 @@
+{
+	"name": "dso-database",
+	"version": "0.0.1",
+	"license": "MIT",
+	"private": false,
+	"description": "TypeScript definitions for dso-database",
+	"author": "Marco Antolini",
+	"repository": "https://github.com/MarcoAntolini/dso-database-pkg",
+	"homepage": "https://github.com/MarcoAntolini/dso-database-pkg#readme",
+	"keywords": [
+		"types",
+		"typescript",
+		"definitions",
+		"declarations",
+		"typings",
+		"dso-database"
+	],
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"CHANGELOG.md",
+		"LICENSE",
+		"README.md",
+		"package.json"
+	],
+	"scripts": {
+		"build": "tsup src/*.ts --format cjs,esm --dts",
+		"lint": "tsc",
+		"release": "pnpm run build && changeset publish"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.27.1",
+		"tsup": "^8.0.1",
+		"typescript": "^5.3.2"
+	},
+	"dependencies": {
+		"ts-hover-prettify": "^1.1.0"
+	},
+	"prettier": {
+		"arrowParens": "always",
+		"trailingComma": "all",
+		"semi": true,
+		"singleQuote": false,
+		"printWidth": 120,
+		"tabWidth": 2,
+		"useTabs": true
+	}
+}
