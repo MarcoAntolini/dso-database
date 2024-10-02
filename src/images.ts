@@ -245,6 +245,7 @@ const dwarfImages = [
 	"dwarf_unique_worlddrop_shoulders",
 	"dwarf_unique_worlddrop_torso",
 ] as const;
+
 export const warriorImages = [
 	"all_mythic_bgh_ring",
 	"all_mythic_dragan_helmet",
@@ -494,11 +495,13 @@ export const warriorImages = [
 	"warrior_unique_worlddrop_shield",
 	"warrior_unique_worlddrop_shield_slaughter",
 	"warrior_unique_worlddrop_shoulders",
-	"warrior_unique_worlddrop_torso"
+	"warrior_unique_worlddrop_torso",
 ] as const;
+
 export const rangerImages = [
 	"all_mythic_bgh_ring",
-	"all_mythic_dragan_helmet",,
+	"all_mythic_dragan_helmet",
+	,
 	"all_mythic_dragan_shoulders",
 	"all_mythic_unreleased_ring_death",
 	"all_mythic_unreleased_ring_life",
@@ -742,10 +745,12 @@ export const rangerImages = [
 	"ranger_unique_worlddrop_quiver",
 	"ranger_unique_worlddrop_shield",
 	"ranger_unique_worlddrop_shoulders",
-	"ranger_unique_worlddrop_torso"
+	"ranger_unique_worlddrop_torso",
 ] as const;
+
 export const mageImages = [
-	"all_mythic_bgh_ring",,
+	"all_mythic_bgh_ring",
+	,
 	"all_mythic_dragan_helmet",
 	"all_mythic_dragan_shoulders",
 	"all_mythic_unreleased_ring_death",
@@ -990,10 +995,10 @@ export const mageImages = [
 	"mage_unique_worlddrop_premium_offhand",
 	"mage_unique_worlddrop_premium_shoulders",
 	"mage_unique_worlddrop_shoulders",
-	"mage_unique_worlddrop_torso"
+	"mage_unique_worlddrop_torso",
 ] as const;
 
-export type DwarfImage = typeof dwarfImages[number];
-export type WarriorImage = typeof warriorImages[number];
-export type RangerImage = typeof rangerImages[number];
-export type MageImage = typeof mageImages[number];
+export type DwarfImage = (typeof dwarfImages)[number];
+export type WarriorImage = (typeof warriorImages)[number];
+export type RangerImage = (typeof rangerImages)[number];
+export type MageImage = (typeof mageImages)[number];
