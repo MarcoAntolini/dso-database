@@ -501,7 +501,6 @@ export const warriorImages = [
 export const rangerImages = [
 	"all_mythic_bgh_ring",
 	"all_mythic_dragan_helmet",
-	,
 	"all_mythic_dragan_shoulders",
 	"all_mythic_unreleased_ring_death",
 	"all_mythic_unreleased_ring_life",
@@ -750,7 +749,6 @@ export const rangerImages = [
 
 export const mageImages = [
 	"all_mythic_bgh_ring",
-	,
 	"all_mythic_dragan_helmet",
 	"all_mythic_dragan_shoulders",
 	"all_mythic_unreleased_ring_death",
