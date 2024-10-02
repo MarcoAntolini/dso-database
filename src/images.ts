@@ -1,4 +1,4 @@
-const dwarfImages = [
+export const dwarfImages = [
 	"all_mythic_bgh_ring",
 	"all_mythic_dragan_helmet",
 	"all_mythic_dragan_shoulders",
