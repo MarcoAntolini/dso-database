@@ -1,5 +1,12 @@
 # dso-database
 
+## 2.1.2
+
+### Patch Changes
+
+- a773325: Fix types error.
+- Update readme.
+
 ## 2.1.1
 
 ### Patch Changes
