@@ -5,6 +5,7 @@
 ### Patch Changes
 
 - a773325: Fix types error.
+- Update readme.
 
 ## 2.1.1
 

@@ -2,13 +2,13 @@
 
 ## Installation
 
-> `npm install --save-dev dso-database-pkg`
+> `npm install --save-dev dso-database`
 
 or
-> `pnpm add -D dso-database-pkg`
+> `pnpm add -D dso-database`
 
 or
-> `yarn add -D dso-database-pkg`
+> `yarn add -D dso-database`
 
 ## Usage
 
